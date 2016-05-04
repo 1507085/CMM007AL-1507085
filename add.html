@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Landing</title>
+    <title>Add Blog Entry Page</title>
     <link rel="stylesheet" href="stle.css">
     <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
 </head>
@@ -20,19 +20,20 @@
         </ul>
     </nav>
 </header>
-<main class="grid-container">
-    <section class="grid-66">
-    <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed de eiusmod tempor
-    incididunt<br> ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation
-    ullamco<br> laboris nisi aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehrnderit in voluptate<br>
-    velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non proident.<br>
-    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-    <section class="grid-33">
-    <aside>
-        <img src="blog.png" alt="blog image" width="200">
-    </aside>
-        </section>
+<main>
+    <form action="add.php" method="post">
+        <fieldset>
+            <label>Entry Tiltle:</label>
+            <input type="text" name="Title" placeholder="Enter Title"><br>
+            <label>Entry Summary:</label>
+            <textarea name="Entry Summary" cols="20" rows="5"></textarea><br>
+            <label>Category:</label>
+            <input type="text" name="Category" placeholder="Enetr Category"><br>
+            <label>Submitted By:</label>
+            <input type="text" name="Submitted By" placeholder="Submitted By"><br>
+            <input type="submit" name="submit" value="Submit">
+        </fieldset>
+    </form>
 </main>
 <footer>
     <p>Designed by [Emmanuel Onumah],[2016].</p>

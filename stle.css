@@ -1,0 +1,90 @@
+header{
+    background: grey;
+}
+nav{
+    background: grey;
+}
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    dispaly:inline-block;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+#aa{
+    margin: 10px;
+    border-color: darkmagenta;
+    border-style: solid;
+    background-color: coral;
+    color: lawngreen;
+}
+#bb{
+    margin: 10px;
+    border-color: darkmagenta;
+    border-style: solid;
+    background-color: coral;
+    color: lawngreen;
+}
+#cc{
+    margin: 10px;
+    border-color: darkmagenta;
+    border-style: solid;
+    background-color: coral;
+    color: lawngreen;
+}
+#dd{
+    margin: 10px;
+    border-color: darkmagenta;
+    border-style: solid;
+    background-color: coral;
+    color: lawngreen;
+}
+#ee{
+    margin: 10px;
+    border-color: darkmagenta;
+    border-style: solid;
+    background-color: coral;
+    color: lawngreen;
+}
+/*#ff{
+    background-color: darkblue;
+}*/
+main{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 960px;
+}
+#mm{
+    background-color: antiquewhite;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+fieldset{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ll{
+    border-bottom:solid;
+    border-color: black;
+}
