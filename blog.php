@@ -12,11 +12,11 @@
     <h2>because the internet needs to know what I think</h2>
     <nav>
         <ul>
-            <li><a id="aa" href="blog.php">All Blog Items</a></li>
-            <li><a id="bb" href="blog.php">Work Blog Items</a></li>
-            <li><a id="cc" href="blog.php">University Blog Items</a></li>
-            <li><a id="dd" href="blog.php">Family Blog Items</a></li>
-            <li><a id="ee" href="add.php">Insert Blog Item</a></li>
+            <li><a id="aa" href="blog.html">All Blog Items</a></li>
+            <li><a id="bb" href="blog.html">Work Blog Items</a></li>
+            <li><a id="cc" href="blog.html">University Blog Items</a></li>
+            <li><a id="dd" href="blog.html">Family Blog Items</a></li>
+            <li><a id="ee" href="add.html">Insert Blog Item</a></li>
         </ul>
     </nav>
 </header>
